@@ -12,6 +12,11 @@ slideshow-component .slideshow.banner {
   overflow-y: hidden;
 }
 
+.slideshow .slideshow__media > img {
+  object-fit: var(--slideshow-image-fit, cover);
+  object-position: var(--slideshow-image-position, center center);
+}
+
 .slideshow__slide {
   padding: 0;
   position: relative;
